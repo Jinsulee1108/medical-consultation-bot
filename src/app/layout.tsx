@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "병원 AI 상담 봇",
+  title: "진수의 메디컬 AI 상담봇",
   description: "AI 기반 증상 분석 및 진료과 안내 서비스",
 };
 

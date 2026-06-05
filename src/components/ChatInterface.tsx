@@ -178,7 +178,7 @@ export default function ChatInterface() {
           🏥
         </div>
         <div>
-          <h1 className="text-base font-bold text-gray-900">병원 AI 상담 봇</h1>
+          <h1 className="text-base font-bold text-gray-900">진수의 메디컬 AI 상담봇</h1>
           <p className="text-xs text-gray-500">증상 분석 · 진료과 안내 · 응급 판단</p>
         </div>
         <div className="ml-auto flex items-center gap-1.5">
