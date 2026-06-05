@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(gh repo *)",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(npm install)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'feat: 병원 AI 상담 봇 초기 구현 *)"
     ]
   }
 }
