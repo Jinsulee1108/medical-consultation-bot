@@ -64,7 +64,7 @@ function MessageBubble({ message }: { message: Message }) {
         <div
           className={`rounded-2xl px-4 py-3 ${
             isUser
-              ? 'rounded-tr-sm bg-blue-500 text-white'
+              ? 'rounded-tr-sm bg-violet-400 text-white'
               : 'rounded-tl-sm bg-white text-gray-800 shadow-sm border border-gray-100'
           }`}
         >
