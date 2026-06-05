@@ -57,7 +57,7 @@ export async function callOpenRouter(userMessage: string, conversationHistory: A
       'Authorization': `Bearer ${apiKey}`,
       'Content-Type': 'application/json',
       'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-      'X-Title': '병원 AI 상담 봇',
+      'X-Title': 'Hospital AI Consultation Bot',
     },
     body: JSON.stringify({
       model: 'openrouter/auto',
